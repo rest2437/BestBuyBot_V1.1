@@ -70,9 +70,9 @@ These instructions are for Mac users only.
 
 - 1. Locate an item on best buys webpage that is in stock and copy the items link.
 - 2. In BestBuyBot_v1.1.py, locate the TEST section. In that section you will see "driver.get('PASTE_TEST_LINK_HERE')". please paste the copied link where it says PASTE_TEST_LINK_HERE.
-- 3. Uncomment that section.
+- 3. Uncomment the TEST section.
 - 4. Save the file
-- 5. Run the scrypt by pressing the play button on the upper right corner of the screen.
+- 5. Run the scrypt by pressing the play button on the upper right corner of the window if using VScode.
 - 6. If everything works fine, comment out the TEST section and uncomment the SCALP section that is preset to scalp for the PS5
 - 7. Save the file
 - 8. Run the program and watch it work!
