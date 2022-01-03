@@ -1,34 +1,26 @@
 import time
-from selenium import webdriver  # importing selenium
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from twilio.rest import Client
 
-
+################################ CHROME ##################################
 driver = webdriver.Chrome()
 
-################################ SIGN IN ##################################
-# driver.get(
-#     'https://www.bestbuy.com/identity/signin?token=tid%3Ad1f04895-5a33-11ec-bb2b-06572c31469d')
-
-# email = driver.find_element(By.ID, 'fld-e')
-# email.send_keys("EMAIL")
-# password = driver.find_element(By.ID, 'fld-p1')
-# password.send_keys('PASSWORD')
-# driver.find_element(By.ID, 'cia-remember-me').click()
-# driver.find_element(By.CLASS_NAME, 'c-button').click()
+################################ FIREFOX ##################################
+# driver = webdriver.Firefox()
 
 ################################ TEST ##################################
-# # uncomment next line and insert a new link to test a product with a good yellow "add to cart" button
+# # uncomment lines 15 and 16 and insert a new link to test a product with a good yellow "add to cart" button
 # driver.get(
-#     'https://www.bestbuy.com/site/l-o-l-surprise-l-o-l-surprise-movie-magic-doll-asst-in-pdq/6462708.p?skuId=6462708')
+#     'PASTE_TEST_LINK_HERE')
 
 ################################ SCALP ##################################
 # # website to scalp from (12/07/2021 PS5 link)
-driver.get(
-    'https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149')
+# driver.get(
+#     'https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149')
 
 
 foundButton = False  # saying "if the button I am looking for is false"
@@ -67,7 +59,7 @@ try:
 except:
     print('couldnt find "continue" button')
 
-# ################################ LOG IN as guest ##################################
+# ################################ LOG IN AS GUEST ##################################
 
 try:
 
