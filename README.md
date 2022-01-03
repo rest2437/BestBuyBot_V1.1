@@ -69,7 +69,7 @@ These instructions are for Mac users only.
 ### Test program
 
 - 1. Locate an item on best buys webpage that is in stock and copy the items link.
-- 2. In BestBuyBot_v1.1.py, locate the TEST section. In that section you will see "driver.get('PASTE_TEST_LINK_HERE')". please paste a the copied link where it says PASTE_TEST_LINK_HERE.
+- 2. In BestBuyBot_v1.1.py, locate the TEST section. In that section you will see "driver.get('PASTE_TEST_LINK_HERE')". please paste the copied link where it says PASTE_TEST_LINK_HERE.
 - 3. Uncomment that section.
 - 4. Save the file
 - 5. Run the scrypt by pressing the play button on the upper right corner of the screen.
